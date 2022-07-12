@@ -1,6 +1,6 @@
 document.querySelector("currentDay").textContent = moment().format("dddd, MMMM Do YYYY")
 
-var timeFrame = $(".time-frame");
+var timeBlock = $(".time-block");
 var list = $("textarea");
 
-for (var i=0; i < timeFrame.length; i++);
+for (var i=0; i < timeBlock.length; i++);
