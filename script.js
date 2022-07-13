@@ -36,8 +36,22 @@ if (events) {
         }
     }
 }
+// array for events
 else { events = [
     {id: "0900", text: ""}, {id: "1000", text: ""}, {id: "1100", text: ""}, {id: "1200", text: ""}, {id: "1300", text: ""}, {id: "1400", text: ""}, {id: "1500", text: ""}, 
     {id: "1600", text: ""}, {id: "1700", text: ""}, 
     ];
 };
+
+function saveTasks(event) {
+    var id = $(event.target).closest(".time-block").attr("id");
+    var value = $(event.target).siblings("textarea").val();
+    for (var i = 0; i < events.length; i++) {
+        if (events[i].id === id) {
+            events[i].text = value;
+        }
+    }
+
+    localStorage.setItem("events", JSON.stringify(events));
+}
+
