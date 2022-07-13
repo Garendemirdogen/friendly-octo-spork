@@ -36,3 +36,8 @@ if (events) {
         }
     }
 }
+else { events = [
+    {id: "0900", text: ""}, {id: "1000", text: ""}, {id: "1100", text: ""}, {id: "1200", text: ""}, {id: "1300", text: ""}, {id: "1400", text: ""}, {id: "1500", text: ""}, 
+    {id: "1600", text: ""}, {id: "1700", text: ""}, 
+    ];
+};
