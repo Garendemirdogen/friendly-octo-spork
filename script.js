@@ -24,3 +24,15 @@ for (var j = 0; j < saveBtn.length; j++) {
         saveBtn[j].addEventListener("click", saveTasks);
 }
 
+// get data and check for data
+var events = JSON.parse(localStorage.getItem("events"));
+var timeBlockArray = $(".time-block");
+if (events) {
+    for (var i = 0; i < timeBlockArray.length; i++) {
+        for (var k = 0; k < events.length; k++) {
+            if ($(timeBlockArray[i]).attr("id") === events[k].id) {
+                $(timeBlockArray[i]).find("textarea").val(events[k].text);
+            }
+        }
+    }
+}
