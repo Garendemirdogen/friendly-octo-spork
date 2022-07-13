@@ -7,13 +7,13 @@ var timeBlock = $(".time-block");
 var list = $("textarea");
 // Change the color of the textarea based on if the time is in the past, present or the future
 for (var i = 0; i < timeBlock.length; i++) {
-    if (setInterval(timeBlock[i].id) < moment().format("h")) {
+    if (setInterval(timeBlock[i].id) < moment().format("H")) {
         list[i].classList.add("past");
     }
-    else if (setInterval(timeBlock[i].id) == moment().format("h")) {
+    else if (setInterval(timeBlock[i].id) == moment().format("H")) {
         list[i].classList.add("present");
     }
-    else if (setInterval(timeBlock[i].id) > moment().format("h")) {
+    else if (setInterval(timeBlock[i].id) > moment().format("H")) {
         list[i].classList.add("future");
     }
 };
