@@ -17,3 +17,10 @@ for (var i = 0; i < timeBlock.length; i++) {
         list[i].classList.add("future");
     }
 };
+
+// save the tasks using local storage
+var saveBtn = $(".saveBtn");
+for (var j = 0; j < saveBtn.length; j++) {
+        saveBtn[j].addEventListener("click", saveTasks);
+}
+
