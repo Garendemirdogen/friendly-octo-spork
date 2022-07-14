@@ -8,7 +8,8 @@
 - [x] WHEN I click the save button for that time block, THEN the text for that event is saved in local storage
 - [x] WHEN I refresh the page, THEN the saved events persist
 
-## Screenshots of live URL
+## Screenshot of live URL
+![Work-Day-Scheduler](./images/Screenshot.png)
 
 ## Github Repository Link
 https://github.com/Garendemirdogen/friendly-octo-spork.git

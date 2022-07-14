@@ -42,7 +42,7 @@ else { events = [
     {id: "1600", text: ""}, {id: "1700", text: ""}, 
     ];
 };
-
+// Save task function
 function saveTasks(event) {
     var id = $(event.target).closest(".time-block").attr("id");
     var value = $(event.target).siblings("textarea").val();
