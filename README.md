@@ -8,8 +8,10 @@
 - [x] WHEN I click the save button for that time block, THEN the text for that event is saved in local storage
 - [x] WHEN I refresh the page, THEN the saved events persist
 
-## Screenshot of live URL
+# Screenshot of live URL
+## Future Events 
 ![Work-Day-Scheduler-Future-Events](./images/Screenshot%20Future%20Events.png)
+## Past Events
 ![Work-Day-Scheduler-Past-Events](./images/Screenshot.png)
 
 ## Github Repository Link
