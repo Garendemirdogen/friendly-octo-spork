@@ -9,7 +9,8 @@
 - [x] WHEN I refresh the page, THEN the saved events persist
 
 ## Screenshot of live URL
-![Work-Day-Scheduler](./images/Screenshot.png)
+![Work-Day-Scheduler-Future-Events](./images/Screenshot%20Future%20Events.png)
+![Work-Day-Scheduler-Past-Events](./images/Screenshot.png)
 
 ## Github Repository Link
 https://github.com/Garendemirdogen/friendly-octo-spork.git
