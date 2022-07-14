@@ -1,8 +1,6 @@
-// Once window is loaded, current day, date and live clock will populate
-window.setInterval(function () {
-    $('#currentDay').html(moment().format('dddd MMMM Do, YYYY'))
-}, 1000);
-
+// Once window is loaded, current day and date 
+document.querySelector("#currentDay").textContent = moment().format("dddd, MMMM Do YYYY");
+// Live clock will populate
 window.setInterval(function () {
     $('#currentTime').html(moment().format('h:mm:ssA'))
 }, 1000);
@@ -11,13 +9,13 @@ var timeBlock = $(".time-block");
 var list = $("textarea");
 // Change the color of the textarea based on if the time is in the past, present or the future
 for (var i = 0; i < timeBlock.length; i++) {
-    if (setInterval(timeBlock[i].id) < moment().format("H")) {
+    if (parseInt(timeBlock[i].id) < moment().format("H")) {
         list[i].classList.add("past");
     }
-    else if (setInterval(timeBlock[i].id) == moment().format("H")) {
+    else if (parseInt(timeBlock[i].id) == moment().format("H")) {
         list[i].classList.add("present");
     }
-    else if (setInterval(timeBlock[i].id) > moment().format("H")) {
+    else if (parseInt(timeBlock[i].id) > moment().format("H")) {
         list[i].classList.add("future");
     }
 };
