@@ -17,4 +17,4 @@ https://github.com/Garendemirdogen/friendly-octo-spork.git
 ## Live URL Link
 https://garendemirdogen.github.io/friendly-octo-spork/
 
-Refactored by Garen Demirdogen. 2022
+Refactored by Garen Demirdogen. 2022 
