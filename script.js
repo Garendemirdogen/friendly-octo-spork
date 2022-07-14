@@ -1,6 +1,10 @@
 // Once window is loaded, current day, date and live clock will populate
 window.setInterval(function () {
-    $('#currentDay').html(moment().format('dddd MMMM Do, YYYY h:mm:ssA'))
+    $('#currentDay').html(moment().format('dddd MMMM Do, YYYY'))
+}, 1000);
+
+window.setInterval(function () {
+    $('#currentTime').html(moment().format('h:mm:ssA'))
 }, 1000);
 
 var timeBlock = $(".time-block");
