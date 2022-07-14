@@ -14,10 +14,10 @@
 ## Past Events
 ![Work-Day-Scheduler-Past-Events](./images/Screenshot.png)
 
-## Github Repository Link
+# Links
+## Github Repository
 https://github.com/Garendemirdogen/friendly-octo-spork.git
-
-## Live URL Link
+## Live URL
 https://garendemirdogen.github.io/friendly-octo-spork/
 
 Refactored by Garen Demirdogen. 2022
